@@ -58,8 +58,8 @@
 				var self=this;
 				var arr=this.circles(this.n);
 				this.context.lineWidth=1;
-				this.context.strokeStyle='#aaa';
-				this.context.fillStyle='#aaa';
+				this.context.strokeStyle='#fff';
+				this.context.fillStyle='#fff';
 				var timer=setInterval(function(){
 					self.context.clearRect(0, 0, self.width, self.height);
 					for(var k=0;k<arr.length;k++){
